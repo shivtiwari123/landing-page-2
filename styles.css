@@ -1,0 +1,124 @@
+/* TOP BAR */
+
+.logo-img {
+  float: left;
+  padding-top: 4%;
+  padding-left: 3%;
+}
+.info {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  padding: 4% 6%;
+}
+.features {
+  padding-right: 6%;
+}
+.team {
+  padding-right: 6%;
+}
+.sign-in {
+  padding-right: 6%;
+}
+
+/* PAGE DESIGN */
+
+#top-container {
+  padding-left: 3%
+}
+#mid-container {
+  padding-top: 5%;
+  padding-left: 3%;
+  background-color: hsl(240, 75%, 98%);
+}
+#fylo-working {
+  color: #39A388;
+  padding-bottom: 1%;
+  text-decoration: underline;
+}
+#early-access {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+  color: #fff;
+  background-color: hsl(238, 22%, 44%);
+}
+#button-2 {
+  font-family: "Raleway", sans-serif;
+  margin-left: 50%;
+  margin-right: 4%;
+}
+#bottom-container {
+  padding-left: 4%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+}
+.email {
+  font-family: "Raleway", sans-serif;
+  margin-top: 1%;
+  margin-left: 50%;
+  margin-right: 4%;
+}
+.email-original {
+  font-family: "Raleway", sans-serif;
+}
+.curve-img {
+  text-align: center;
+  width: 100%;
+}
+.text {
+  padding-top: 2%;
+}
+.illustration {
+  margin-bottom: 6%;
+  width: 90%;
+}
+.heading-1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  padding-bottom: 4%;
+}
+.heading-text {
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 1.5%;
+}
+.btn-custom {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  background-color: #2C2891;
+  margin-top: 5%;
+  width: 30%;
+}
+.btn-custom:hover {
+  color: #fff;
+}
+.icon {
+  padding-right: 5px;
+}
+.social-icons {
+  padding-right: 8px;
+}
+
+/* SMALL SCREEN DESIGN */
+
+@media (max-width: 1000px) {
+  .logo-img {
+    width: 30%;
+  }
+  body {
+    text-align: center;
+  }
+  #early-access {
+    display: flex;
+    justify-content: center;
+  }
+  .part-1 {
+    text-align: left;
+    padding-bottom: 30px;
+  }
+  .email-1 {
+    margin-right: 10%;
+  }
+}
